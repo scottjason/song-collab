@@ -1,0 +1,23 @@
+{
+  "name": "songcollab",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack -d --display-reasons --display-chunks --progress",
+    "dev": "webpack --config webpack.development.config.js --colors --progress"
+  },
+  "author": "Scott Jason",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.5.3"
+  },
+  "devDependencies": {
+    "exports-loader": "~0.6.2",
+    "expose-loader": "~0.6.0",
+    "imports-loader": "~0.6.3",
+    "lodash": "~2.4.1",
+    "webpack": "~1.4.13",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}
