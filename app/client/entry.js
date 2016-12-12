@@ -1,5 +1,4 @@
-var _ = require('lodash');
-_.times(5, function(i) {
-  console.log(i);
-});
-console.log("dsdf")
+import styles from '../assets/stylesheets/main.styl'
+
+import React from 'react';
+import ReactDOM from 'react-dom';
